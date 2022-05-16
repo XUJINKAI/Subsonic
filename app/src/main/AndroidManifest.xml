@@ -40,6 +40,7 @@
     	android:icon="@drawable/launch"
     	android:theme="@style/Theme.DSub.Light"
 		android:largeHeap="true"
+		android:requestLegacyExternalStorage="true"
 		android:usesCleartextTraffic="true">
     	
         <uses-library android:name="android.test.runner" />
